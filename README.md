@@ -11,7 +11,7 @@ If not add pug class extending jade, use jade instead pug.
 ```
 $options = array(
     /* View more about pug configs */
-    "enviroment" => "development", //development as default
+    "environment" => "development", //development as default
     "assetDirectory" => "assets", //dev as default
     "outputDirectory" => "static", //public as default
 );
@@ -31,7 +31,7 @@ $this->jade->view("template",array_merge($data,$module));
 #Loading a simple view
 $this->jade->view("privacy_notice");
 
-###Without params print a view named identical to method 
+#Without params print a view named identical to method 
 // 1.- {app}/views/{method}
 // 2.- {app}/views/{class}/{method}
 
