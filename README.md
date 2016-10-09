@@ -45,3 +45,5 @@ $this->jade->view($data,true);
 Only works with relative path on nameserver.
 
 Use virtual host jar file to generate virtualhost with xampp, or create manually.
+
+Follow: https://github.com/pug-php/pug-minify/issues/4
