@@ -10,7 +10,7 @@ If not add pug class extending jade, use jade instead pug.
 Use:
 
 $options = array(
-    // View more about pug configs
+    /* View more about pug configs */
     "enviroment" => "development", //development as default
     "assetDirectory" => "assets", //dev as default
     "outputDirectory" => "static", //public as default
