@@ -18,11 +18,12 @@ $options = array(
 
 $this->load->library("jade",$options);
 
-$data = array();
 ```
 
-# Works similar to parser
+### Works similar to parser
 ```
+$data = array();
+
 #Parsing multiple views in another view
 $module["content"] = $this->jade->view("index",$data,true);
 $this->jade->view("template",array_merge($data,$module));
