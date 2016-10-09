@@ -22,14 +22,14 @@ $data = array();
 
 Jade library works similar to parser
 
-#Parsing multiple views in another view
+###Parsing multiple views in another view
 $module["content"] = $this->jade->view("index",$data,true);
 $this->jade->view("template",array_merge($data,$module));
 
-#Loading a simple view
+###Loading a simple view
 $this->jade->view("privacy_notice");
 
-#Without params print a view named identical to method 
+###Without params print a view named identical to method 
 // 1.- {app}/views/{method}
 // 2.- {app}/views/{class}/{method}
 
@@ -39,3 +39,9 @@ $this->jade->view($data);
 //Same to
 $this->jade->view($data,true);
 
+
+###Issues
+
+Only works with relative path on nameserver.
+
+Use virtual host jar file to generate virtualhost with xampp, or create manually.
